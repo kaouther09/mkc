@@ -1,0 +1,803 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+      
+      /* le header */
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.panier{
+    height: 20px;
+    width: 20px
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    /* background-color: #F6F5F5; */
+    background-color: #AC7D88;
+}
+#header_right{
+   display: flex;
+   gap: 30px;
+   align-items: center;
+}
+#barrech{
+    height: 30px;
+    width: 200px;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px lightgray;
+    height: 30px;
+    position: relative;
+}
+.sous-menu{
+    display: none;
+    /*position: absolute; */
+    margin-top: 245px;
+    background-color: #F6F5F5;
+    height: 200px;
+    width: 1000%;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.menu{
+    height: 30px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu:hover{
+    border-bottom: solid 2px #7469B6;
+}
+#logo sub{
+    color: #7469B6;
+}
+#logo{
+    color: #7469B6;
+}
+
+#menu1:hover #sous-menu1{
+    display: block;
+}
+#menu2:hover #sous-menu2{
+    display: block;
+}
+#menu3:hover #sous-menu3{
+    display: block;
+}
+#menu4:hover #sous-menu4{
+    display: block;
+}
+#sous-menu1{
+    position: absolute;
+}
+#sous-menu2{
+    position: absolute;
+}
+#sous-menu3{
+    position: absolute;
+}
+#sous-menu4{
+    position: absolute;
+}
+
+
+
+/* le body: la main : page d'accueil */
+
+
+
+/* 1ere partie */
+.div_k{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.z{
+    margin: 5px;
+}
+
+.b img{
+   width: 800px;;
+   height: 500px;
+  
+} 
+
+.a h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(196, 155, 235);
+    font-size: 80px;
+    font-style: italic;
+}
+ .a h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: large;
+} 
+
+.butt{
+    border-radius: 10px;
+    border-style: none;
+    background-color: #AC7D88 ;
+    color: white;
+    width: 150px;
+    height: 22px;
+}
+
+.butt:hover{
+    background-color: rgb(93, 93, 219);
+}
+/* 2eme partie */
+#nava{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 370px;
+
+}
+/* pour les image */
+.i{
+    width: 300px;
+    height: 222px; 
+
+}
+/* pour les paragraphe */
+#nava article{
+    margin: 7px;
+    
+}
+
+
+
+/* 3eme partie */
+ 
+
+.diva{
+   
+    height: 200px; 
+    margin: 5%;
+    
+}
+/* pour les image de la 3eme partie */
+.im{
+    width: 800px;
+    height: 500px;
+ }
+ .in{
+    width: 800px;
+    height: 500px;
+ }
+
+
+
+ .diva h6{
+    font-size: 30px;
+    font-weight: 10px;
+  
+
+ }
+ .diva h3{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .diba{
+    
+    text-align: center;
+    height: 40px;
+    
+ }
+
+ .diba h3{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+ }
+
+
+ .divphot{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+ }
+
+
+
+
+ .divphot article{
+    margin:10px;
+   
+    
+ }
+ .divphot h3{
+    background-color: gainsboro;
+    border-radius: 50%;
+    
+ }
+ .di{
+   
+    text-align: center;
+ }
+ .di img{
+    width: 1600px;
+    height: 800px;
+    
+ }
+
+
+ /* le css de ilija  */
+ .section{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+}
+
+.sarah_gris {
+color: gray
+
+}
+
+.articles_img{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.nos_valeurs{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    text-align: center;
+    
+}
+
+.rencontrer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px; 
+    text-align: center;
+    align-items: center;
+}
+
+.rencontrerb{
+    background-color: lightpink;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.espace_img{
+    margin-right: 15px;
+
+}
+
+.fondateur{
+    margin-bottom: 0px;
+}
+
+
+.coin_arondis{
+
+    border-radius: 10px;
+    border-style: none;
+    width: 100px;
+}
+
+.modifsuiveznous{
+
+    margin: 125px;
+    align-items: center;
+    text-align: center;
+}
+
+.dispo_photos{
+
+    margin-top: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.dispo_photos img{
+
+    margin: 10px;
+}
+ 
+
+
+/* le footer de celia */
+#section1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color:#AC7D88 ;
+
+} 
+#section1 article{
+    
+    text-align: center;
+}
+.secu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.secu div{
+    width:  30%;
+}
+
+#mogg{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    
+    
+    
+}
+
+.sinsc{
+    margin-top: 20px;
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #c79ba5b4;
+    border-style: none;
+    font-weight: bold;
+    flex-direction: row;
+
+}
+.name{
+    border-radius: 10px;
+    background-color: #f0ccd47e;
+    border-style: none;
+    margin-top: 50px;
+    width: 250px;
+    height: 25px;
+
+}
+
+.xx{
+    margin-top: 10px;
+}
+.hh{
+    text-align:left;
+    font-size: 30px;
+}
+.paraun{
+    font: size 15px; ;
+}
+
+   
+.bas_footer{
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+    background-color:#AC7D88;
+}
+.li_footer{
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align:center
+    /* text-align: center; */
+    
+   
+}
+
+.logo_reseau{
+    display: flex;
+    gap: 10px;
+}
+*{
+    list-style-type: none;
+}
+
+.bd{
+    margin-left: 60px;
+}
+
+
+ /* la page de l'hydratation */
+ .hyd{
+    background-image: url("./img/11.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height:500px; 
+    text-align: center;
+    background-size: cover;
+    padding: 5%;
+  
+ }
+ .hyd h1{
+    font-size: 100px;
+    color: white;
+    font-style: italic;
+    text-align: left;
+ }
+ .hyd p{
+      font-size:3em ;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: italic;
+      color: white;
+      text-align: left;
+ }
+
+
+.produits-one{
+  
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;  
+    padding-bottom: 25px;
+   
+  
+} 
+
+
+
+
+
+ .didi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    
+ }
+ .kk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+ }
+ .kk img{
+    width: 100%;
+    height: 80%;
+
+ }
+ .ar-1 p{
+      text-align: center;
+      font-style: italic;
+      padding: 2%;
+
+ }
+
+.ar-2{
+    padding: 10%;
+    text-align: center;
+    height: 2%;
+    
+}
+.ar-2 img{
+    height: 100%;
+    width: 60%;
+}
+
+
+
+/* la page de shampoing */
+ .shmp{
+    background-image: url("../img/sh111png.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height:500px; 
+    text-align: center;
+    background-size: cover;
+    padding: 5%;
+ }
+ .shmp h1{
+    font-size: 100px;
+    color: white;
+    font-style: italic;
+    text-align: left;
+ }
+ .produits-chev{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .prch{
+    padding-bottom: 55px;
+ }
+
+.divshm{
+    
+    text-align: center;
+    
+}
+.divshm img{
+    width:1000px ;
+    height: 500px;
+    padding: 5%;
+}
+.divshm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+} 
+.divshm p{
+    font-style: italic;
+    padding: 5%;
+}
+
+
+
+/* page de connexion  */
+
+.sign_in{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: #7469B6 solid 1px;
+    width: 300px;
+    height: 250px;
+}
+.sign_in{
+    /* display: none;  */
+    position: absolute;
+}
+#onglet_compte{
+    position: relative;
+}
+#onglet_compte:hover .sign_in{
+    display: block;
+}
+
+.input_connexion{
+    width: 50%;
+    border: none;
+    border-bottom:solid 1px #7469B6;
+    background-color: transparent;
+    
+    
+}
+#input_signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150%;
+}
+#me-connecter{
+    color: #7469B6;
+}
+#cross {
+    margin-left: 230px;
+    height: 20px;
+}
+
+.bouton_fenetre{
+    background-color: #7469B6;
+    padding: 10px;
+    width: 80%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#bouton_bas{
+    background-color: transparent;
+    border: solid 1px #7469B6;
+}
+
+
+/* page de a propos */
+/* page a propos */
+.para{
+    text-align: center;
+    
+}
+.a_propos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    padding-left: 10%;
+}
+#page_valeur{
+   text-align: center;
+}
+
+
+
+.serum{
+    background-image: url("../img/s8.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height:500px; 
+    text-align: center;
+    background-size: cover;
+    padding: 5%;
+ }
+
+ .serum h1{
+    font-size: 100px;
+    color: white;
+    font-style: italic;
+    text-align: left;
+ }
+
+
+
+
+
+
+.forum{
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* ________________pageinsecription ________________ */
+.conx{
+    display: flex;
+    flex-direction: column;
+ 
+    width: 80%;
+    margin: 0 auto;
+    gap: 30px;
+    
+    justify-content: center;
+    /* background-image: url('https://i.pinimg.com/736x/87/f8/8b/87f88b55109e4da318ac2ec418a32987.jpg'); */
+}
+ .conx .box {
+    width: 30%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgb(246, 185, 247);
+    font-size: 15px;
+    text-align: center;
+    /* padding: 20px 45px 20px 20px; */
+    padding: 10px;
+ }
+ 
+
+
+ .conx .contact-btn{
+    width: 10%;
+    height: 100%; 
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgb(246, 185, 247);
+    font-size: 15px;
+    /* padding: 20px 45px 20px 20px; */
+    padding: 10px;
+    text-align: center;
+}
+
+/* __________________page de cnx _________________ */
+
+.mimi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/736x/87/f8/8b/87f88b55109e4da318ac2ec418a32987.jpg');
+}
+.pagecnx{
+    width: 420px;
+    background-color: #fbfafc88;
+    color: #e6cee252;
+    border-radius: 10px;
+    padding: 30px 40px;
+    
+}
+.pagecnx h1{
+    font-size: 36px;
+    text-align: center;
+    color: #000000db;
+}
+.pagecnx .box{
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+    
+}
+.box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgb(222, 197, 223);
+    font-size: 15px;
+    /* padding: 20px 45px 20px 20px; */
+    padding: 10px;
+}
+.pagecnx .remb{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin-bottom: 15px;
+}
+.remb label input{
+    color: #fff;
+    margin-inline-start: 3px;
+}
+
+.remb a{
+    color: #d429bd;
+    
+}
+.remb  a:hover{
+    color: #d429bd;
+    text-decoration: underline;
+    
+}
+.pagecnx .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #e9cde59e;
+    border: none;
+    border-radius: 40px;
+    box-sizing: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #0b0b0be3;
+
+}
+.pagecnx .fifi{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.fifi p a{
+    color: #d429bd;
+    font-weight: 600;
+}
+.fifi p a:hover{
+    text-decoration: underline;
+}
